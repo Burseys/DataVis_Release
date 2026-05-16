@@ -23,7 +23,7 @@ body:
     id: things_i_like
     attributes:
       label: Things I like
-      description: What things do you like and why?
+      description: What things do you like and why? Word limit: 200.
     validations:
       required: false
 
@@ -31,7 +31,7 @@ body:
     id: how_to_improve
     attributes:
       label: How to improve
-      description: Constructive ideas for how to improve this release.
+      description: Constructive ideas for how to improve this release. Word limit: 250.
     validations:
       required: true
 

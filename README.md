@@ -26,3 +26,17 @@ Example URLs your app can open:
 	https://github.com/Burseys/DataVis_Release/issues/new?template=feedback.yml&release_version=v0.8.2
 - Feature request:
 	https://github.com/Burseys/DataVis_Release/issues/new?template=feature_request.yml&release_version=v0.8.2
+
+## Issue character limits
+
+This repo includes a GitHub Action that checks issue body length and selected section lengths:
+
+- Workflow: .github/workflows/issue-length-guard.yml
+- Trigger: issue opened, edited, or reopened
+- Behavior: comments with violations and applies the label `needs-trim`
+
+You can tune limits in the workflow env values:
+
+- `MAX_TOTAL_CHARS`
+- `HEADING_LIMITS_JSON`
+- `OVER_LIMIT_LABEL`

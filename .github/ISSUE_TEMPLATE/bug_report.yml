@@ -8,7 +8,7 @@ body:
     id: what_went_wrong
     attributes:
       label: What went wrong
-      description: A short description of what happened.
+      description: A short description of what happened. Word limit: 200.
     validations:
       required: true
 
@@ -16,7 +16,7 @@ body:
     id: steps_to_reproduce
     attributes:
       label: How to reproduce
-      description: Steps to reproduce the behavior.
+      description: Steps to reproduce the behavior. Word limit: 250.
       placeholder: |
         1. ...
         2. ...
@@ -27,7 +27,7 @@ body:
     id: expected_behavior
     attributes:
       label: How I expect it to work
-      description: What did you expect to happen?
+      description: What did you expect to happen? Word limit: 200.
     validations:
       required: true
 
@@ -35,7 +35,7 @@ body:
     id: screenshots_or_logs
     attributes:
       label: Helpful screenshots or log files
-      description: Attach screenshots or paste relevant logs if available.
+      description: Attach screenshots or paste relevant logs if available. If pasting logs, keep it under 700 words.
     validations:
       required: false
 

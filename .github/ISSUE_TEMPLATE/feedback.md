@@ -1,17 +1,20 @@
 ---
-name: "Feedback / Feature Request"
-about: "General feedback"
+name: "Feedback"
+about: "General feedback on the release"
 labels: feedback
 assignees: ''
 ---
 
 ## Rating
-<!-- What would you rate this release out of 5 stars?  -->
+<!-- 5 - Outstanding, 4 - Better than expected, 3 - As expected, 2 - Below expectations, 1 - Disappointing -->
 
 ## Things I like
-<!--What things do you like and why?  -->
+<!-- What things do you like and why? Word limit: 200. -->
 
 ## How to improve
-<!--Constructive ideas for how to improve this release -->
+<!-- Constructive ideas for how to improve this release. Word limit: 250. -->
+
+## DataVis Release Version
+<!-- Auto-filled by the app when available. -->
 
 
