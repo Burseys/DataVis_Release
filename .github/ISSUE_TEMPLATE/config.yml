@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: DataVis Releases
+    url: https://github.com/Burseys/DataVis/releases
+    about: See the latest releases and changelogs
