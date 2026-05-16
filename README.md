@@ -6,6 +6,22 @@ https://github.com/Burseys/DataVis_Release/releases
 
 Use the issue forms below so reports are labeled and structured correctly:
 
-- Report a bug: https://github.com/Burseys/DataVis_Release/issues/new?labels=bug&template=bug_report.md
-- Suggest feedback / feature request: https://github.com/Burseys/DataVis_Release/issues/new?labels=feedback&template=feedback.md
-- Request a feature (short form): https://github.com/Burseys/DataVis_Release/issues/new?labels=enhancement&template=feature_request.md
+- Report a bug: https://github.com/Burseys/DataVis_Release/issues/new?template=bug_report.yml
+- Share release feedback: https://github.com/Burseys/DataVis_Release/issues/new?template=feedback.yml
+- Request a feature: https://github.com/Burseys/DataVis_Release/issues/new?template=feature_request.yml
+
+## App URL prefill fields
+
+The YML forms support prefill via query parameters. Use these field IDs:
+
+- report_date
+- release_version
+
+Example URLs your app can open:
+
+- Bug report:
+	https://github.com/Burseys/DataVis_Release/issues/new?template=bug_report.yml&report_date=2026-05-16&release_version=v0.8.2
+- Feedback:
+	https://github.com/Burseys/DataVis_Release/issues/new?template=feedback.yml&report_date=2026-05-16&release_version=v0.8.2
+- Feature request:
+	https://github.com/Burseys/DataVis_Release/issues/new?template=feature_request.yml&report_date=2026-05-16&release_version=v0.8.2

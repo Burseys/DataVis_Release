@@ -1,21 +1,17 @@
 ---
 name: "Feedback / Feature Request"
-about: "Share an idea or suggestion for DataVis"
+about: "General feedback"
 labels: feedback
 assignees: ''
 ---
 
-## Summary
-<!-- A concise description of your feedback or feature request. -->
+## Rating
+<!-- What would you rate this release out of 5 stars?  -->
 
-## Motivation
-<!-- Why would this be useful? What problem does it solve? -->
+## Things I like
+<!--What things do you like and why?  -->
 
-## Proposed solution (optional)
-<!-- If you have ideas about how to implement this, describe them here. -->
+## How to improve
+<!--Constructive ideas for how to improve this release -->
 
-## Alternatives considered (optional)
-<!-- Other approaches you've thought of. -->
 
-## Additional context
-<!-- Screenshots, mockups, links, or anything else that helps. -->

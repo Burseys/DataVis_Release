@@ -1,28 +1,28 @@
 ---
 name: "Bug Report"
-about: "Report something that isn't working correctly"
+about: "Report something that's broken"
 labels: bug
 assignees: ''
 ---
 
-## Describe the bug
-<!-- A clear and concise description of what the bug is. -->
+## What went wrong
+<!-- A short description of what happened -->
 
-## To reproduce
+## How to reproduce
 Steps to reproduce the behavior:
 1. ...
 2. ...
 
-## Expected behavior
+## How I expect it to work
 <!-- What you expected to happen. -->
 
-## Screenshots / logs
+## Helpful Screenshots or log files
 <!-- If applicable, attach screenshots or paste relevant log output. -->
 
-## Environment
+## My system
 - OS: [e.g. Windows 11, macOS 14, Ubuntu 24.04]
 - DataVis version: [check Help -> About or the release tag]
 - GPU: [e.g. NVIDIA RTX 4070]
 
-## Additional context
-<!-- Any other context about the problem here. -->
+## Extra info
+<!-- Anything else that will help us fix it -->

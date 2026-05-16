@@ -1,0 +1,53 @@
+name: Feedback
+description: General feedback on the release
+title: "[Feedback]: "
+labels: [feedback]
+assignees: []
+body:
+  - type: input
+    id: report_date
+    attributes:
+      label: Report Date
+      description: Auto-filled by the app when available.
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+
+  - type: input
+    id: release_version
+    attributes:
+      label: DataVis Release Version
+      description: Auto-filled by the app when available.
+      placeholder: v0.0.0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: rating
+    attributes:
+      label: Rating
+      description: What would you rate this release?
+      options:
+        - 5 - Excellent
+        - 4 - Good
+        - 3 - Okay
+        - 2 - Needs work
+        - 1 - Poor
+    validations:
+      required: true
+
+  - type: textarea
+    id: things_i_like
+    attributes:
+      label: Things I like
+      description: What things do you like and why?
+    validations:
+      required: false
+
+  - type: textarea
+    id: how_to_improve
+    attributes:
+      label: How to improve
+      description: Constructive ideas for how to improve this release.
+    validations:
+      required: true

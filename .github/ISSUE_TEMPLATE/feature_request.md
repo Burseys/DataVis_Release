@@ -1,6 +1,6 @@
 ---
-name: "Feature Request (Short)"
-about: "Request a new feature in a quick format"
+name: "Feature Request"
+about: "Request a new feature"
 labels: enhancement
 assignees: ''
 ---

@@ -1,0 +1,82 @@
+name: Bug Report
+description: Report something that's broken
+title: "[Bug]: "
+labels: [bug]
+assignees: []
+body:
+  - type: input
+    id: report_date
+    attributes:
+      label: Report Date
+      description: Auto-filled by the app when available.
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+
+  - type: input
+    id: release_version
+    attributes:
+      label: DataVis Release Version
+      description: Auto-filled by the app when available.
+      placeholder: v0.0.0
+    validations:
+      required: true
+
+  - type: textarea
+    id: what_went_wrong
+    attributes:
+      label: What went wrong
+      description: A short description of what happened.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps_to_reproduce
+    attributes:
+      label: How to reproduce
+      description: Steps to reproduce the behavior.
+      placeholder: |
+        1. ...
+        2. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: How I expect it to work
+      description: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots_or_logs
+    attributes:
+      label: Helpful screenshots or log files
+      description: Attach screenshots or paste relevant logs if available.
+    validations:
+      required: false
+
+  - type: input
+    id: os
+    attributes:
+      label: OS
+      placeholder: Windows 11, macOS 14, Ubuntu 24.04
+    validations:
+      required: true
+
+  - type: input
+    id: gpu
+    attributes:
+      label: GPU
+      placeholder: NVIDIA RTX 4070
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra_info
+    attributes:
+      label: Extra info
+      description: Anything else that will help us fix it.
+    validations:
+      required: false
