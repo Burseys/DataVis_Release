@@ -6,5 +6,6 @@ https://github.com/Burseys/DataVis_Release/releases
 
 Use the issue forms below so reports are labeled and structured correctly:
 
-- Report a bug: https://github.com/Burseys/DataVis/issues/new?labels=bug&template=bug_report.md
-- Suggest feedback / feature request: https://github.com/Burseys/DataVis/issues/new?labels=feedback&template=feedback.md
+- Report a bug: https://github.com/Burseys/DataVis_Release/issues/new?labels=bug&template=bug_report.md
+- Suggest feedback / feature request: https://github.com/Burseys/DataVis_Release/issues/new?labels=feedback&template=feedback.md
+- Request a feature (short form): https://github.com/Burseys/DataVis_Release/issues/new?labels=enhancement&template=feature_request.md
