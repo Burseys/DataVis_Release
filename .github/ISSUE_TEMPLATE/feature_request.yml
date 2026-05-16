@@ -4,24 +4,6 @@ title: "[Feature]: "
 labels: [enhancement]
 assignees: []
 body:
-  - type: input
-    id: report_date
-    attributes:
-      label: Request Date
-      description: Auto-filled by the app when available.
-      placeholder: YYYY-MM-DD
-    validations:
-      required: true
-
-  - type: input
-    id: release_version
-    attributes:
-      label: DataVis Release Version
-      description: Auto-filled by the app when available.
-      placeholder: v0.0.0
-    validations:
-      required: true
-
   - type: textarea
     id: summary
     attributes:
@@ -45,3 +27,12 @@ body:
       description: Describe what success looks like.
     validations:
       required: false
+
+  - type: input
+    id: release_version
+    attributes:
+      label: DataVis Release Version
+      description: Auto-filled by the app when available.
+      placeholder: v0.0.0
+    validations:
+      required: true

@@ -4,24 +4,6 @@ title: "[Bug]: "
 labels: [bug]
 assignees: []
 body:
-  - type: input
-    id: report_date
-    attributes:
-      label: Report Date
-      description: Auto-filled by the app when available.
-      placeholder: YYYY-MM-DD
-    validations:
-      required: true
-
-  - type: input
-    id: release_version
-    attributes:
-      label: DataVis Release Version
-      description: Auto-filled by the app when available.
-      placeholder: v0.0.0
-    validations:
-      required: true
-
   - type: textarea
     id: what_went_wrong
     attributes:
@@ -73,10 +55,12 @@ body:
     validations:
       required: false
 
-  - type: textarea
-    id: extra_info
+  - type: input
+    id: release_version
     attributes:
-      label: Extra info
-      description: Anything else that will help us fix it.
+      label: DataVis Release Version
+      description: Auto-filled by the app when available.
+      placeholder: v0.0.0
     validations:
-      required: false
+      required: true
+
